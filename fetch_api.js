@@ -5,3 +5,5 @@ fetch('pagina1.html')
     })
     .then(html => console.log(html))
     .catch(e => console.error(e));
+
+// fetch retorna uma promise e serve pra fazer uma requisição HTTP para qualquer lugar, URL/API/arquivo e etc...
